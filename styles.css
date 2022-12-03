@@ -1,0 +1,79 @@
+nav {
+  display: flex;
+  flex-direction: row;
+  padding: 10px; 
+  column-gap: 10px;
+  align-items: center;
+}
+.about {
+  width: 10%;
+}
+.store {
+  width: 10%;
+}
+.images {
+  text-align: right;
+  width: 75%;
+  justify-content: end;
+}
+.gmail {
+  text-align: center;
+  width: 5%;
+  justify-self: center;
+}
+.apps {
+  text-align: center;
+  width: 5%;
+  justify-self: center;
+}
+.user-icon {
+  text-align: center;
+  width: 5%;
+  justify-self: flex-end;
+}
+.google-logo {
+  display: flex;
+  margin-top: 100px;
+ margin-left: 30%;
+}
+.search-bar {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+ input {
+  margin-top: 10px;
+  width: 60%;
+  height: 20px;
+  border-radius: 5px;
+}
+.icon-1 {
+  display: inline-flex;
+  inline-size: auto;
+  justify-self: center;
+  width: ;
+}
+.icon-2 {
+  inline-size: auto;
+  justify-self: center;
+  width: 15px;
+}
+.icon-3 {
+  align-items: center;
+  align-content: center;
+  justify-self: left;
+  width: 15px;
+}
+.google-button {
+  width: 50%;
+  justify-content: end;
+}
+.lucky-button {
+  width: 50%;
+  justify-content: flex-start;
+}
+button {
+  max-width: 150px;
+  max-height: 25px;
+}
